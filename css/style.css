@@ -1,0 +1,107 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    color: rgb(225, 225, 225);
+    font-family: 'Raleway', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: white;
+}
+img{
+    width: 100%;
+    padding: 0 0 0 0;
+    border-radius: 7px;
+}
+.wrapper {
+    background-color: #023047;
+    width: 1200px;
+    height: 3400px;
+    top: 0;
+    margin: 0 auto;
+}
+.header{
+    width: 15%;
+    height: 700px;
+    margin: auto;
+    float: left;
+    position: sticky;
+    top:0;
+}
+.body{
+    max-width: 84%;
+    
+    float: left;
+}
+.footer{
+    max-width: 100%;
+    float: left;
+    height: 50px;
+}
+.menu{
+    padding-top: 5px;    
+    padding-bottom: 15px;
+    padding-left: 5px;
+    margin-top: -0px;
+    margin-bottom: 5px;
+    width: 95%;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(220, 214, 244);
+    transition-duration: 100ms;
+    width: 100;
+}
+
+.content-header{
+    padding-top: 50px;
+    margin-left: 15px;
+}
+.content-body{
+    padding-top: 45px;
+    margin-left: 35px;
+}
+p{
+    padding-left: 15px;
+    margin-top: 10px;
+}
+.content-title{
+    padding-top: 20px;
+    float: left;
+}
+
+.inner-content{
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+.text-box{
+    margin-top: 30px;
+    width: 98%;
+    
+}
+li{
+    margin-bottom: 15px;
+}
+.menu-box{
+    width: 180px;
+    margin-top: -20px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #024464;
+    font-size: 15px;
+}
+
+#menu-1:hover, #menu-2:hover, #menu-3:hover, #menu-4:hover, #menu-5:hover, #menu-6:hover, #menu-7:hover, #menu-8:hover, #menu-9:hover, #menu-10:hover, #menu-11:hover, #menu-12:hover{
+    background-color: #025b87;
+}
+h2{
+    color: rgb(220, 214, 244) !important;
+    font-size: 20px;
+    font-weight: bolder;
+}
